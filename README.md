@@ -13,14 +13,14 @@ You may notice that I use Node and LinkedList to generate session_id and session
 
 Check the object variable of fscrypt. You can set your email address and payment related stuff there.
 
-Requirements
+Requirements:
 Python 2.7
 pyCrypto (crypto operations)
 urllib2 (retrieve user ipv4 address)
 mechanize (send session_key via anonymous email)
 webbrowser (open html notice at the end)
 
-Try out
+Try out:
 wget https://raw.githubusercontent.com/aesophor/fscrypt/master/fscrypt.py
 sudo chmod u+x fscrypt.py
 ./fuxsocy.py
