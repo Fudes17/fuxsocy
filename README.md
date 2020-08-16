@@ -2,6 +2,10 @@ Warning
 Do not actually execute this on your Host OS! especially...
 
 fscrypt.start(debug=False)  --> Catastrophic!
+Help
+if you would like to support me, here is my paypal email address: anon84080@gmail.com
+
+
 Overview
 The program is quite simple. Once invoked, it generates session_id and session_key, then it starts encrypting all files under your user directory. Finally, it will send the victim's machine info, session_id and session_key to the attacker with an anonymous email service (through mechanize), as well as displaying a notice to the victim, telling he/she to pay the ransom via bitcoin.
 
